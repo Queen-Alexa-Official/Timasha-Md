@@ -27,7 +27,7 @@ Module({
   pattern: 'menu',
   fromMe: w,
   use: 'utility',
-  react: '💃'
+  react: '💃',
   desc: 'Is bot alive?'
 }, (async (message, match) => {
   var myid = message.client.user.id.split(":")[0]
