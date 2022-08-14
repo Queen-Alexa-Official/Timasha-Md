@@ -1,6 +1,6 @@
 FROM quay.io/souravkl11/raganork:multidevice
 
-RUN git clone https://github.com/KING-BOT-OFFICIAL/SL-KING-X-MD /skl/SL-KING-X-MD
+RUN git clone https://github.com/Queen-Alexa-Official/Timasha-Md /skl/Timasha-Md
 WORKDIR /skl/SL-KING-X-MD
 ENV TZ=Asia/Kolkata
 RUN npm install supervisor -g
