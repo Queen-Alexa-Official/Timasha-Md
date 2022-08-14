@@ -27,6 +27,7 @@ Module({
   pattern: 'menu',
   fromMe: w,
   use: 'utility',
+  react: '💃'
   desc: 'Is bot alive?'
 }, (async (message, match) => {
   var myid = message.client.user.id.split(":")[0]
@@ -128,7 +129,7 @@ ${edmsg}
 ${srmsg}
 ┃❉╰─────────────────
 ╰══════════════════⊷❍`
-return await message.sendImageTemplate(await skbuffer(BOT_INFO.split(";")[3]),FancyRandom(menu),"All rights reserved "+BOT_INFO.split(";")[0],buttons);
+return await message.sendImageTemplate(await skbuffer(BOT_INFO.split(";")[3]),FancyRandom(menu),"test "+BOT_INFO.split(";")[0],buttons);
 }))
 Module({
   pattern: 'alive',
